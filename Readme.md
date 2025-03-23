@@ -35,12 +35,12 @@ No installation is required. Simply download the `server-stats.sh` script to you
 
 1.  **Download the script:**
     ```bash
-    wget [https://github.com/Anamelechi/server-stats.git]
+    wget https://github.com/Anamelechi/server-stats.git
     ```
     or
     ```bash
-    git clone [https://github.com/Anamelechi/server-stats.git]
-    cd [server-stats]
+    git clone https://github.com/Anamelechi/server-stats.git
+    cd server-stats
     ```
 
 2.  **Make the script executable:**
