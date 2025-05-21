@@ -66,6 +66,11 @@ echo "--- Top 5 Processes by Memory Usage ---"
 ps aux --sort=-%mem | head -n 6 | awk 'NR>1 {printf "%-10s %-5s %-5s %s\n", $2, $3, $4, $11}'
 echo
 
+# --- System Temperature ---
+echo "--- System Temperature ---"
+sensors
+echo
+
 # --- Failed Login Attempts (Stretch Goal - Basic Attempt) ---
 echo "--- Failed Login Attempts (Last 24 Hours - Basic) ---"
 lastb --since 24 hours | wc -l

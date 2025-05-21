@@ -11,6 +11,7 @@ This script gathers and displays the following information:
 * **Total disk usage:** Shows the total, used, and available disk space for the root partition, along with the percentage of disk space used.
 * **Top 5 processes by CPU usage:** Lists the top 5 processes consuming the most CPU resources.
 * **Top 5 processes by memory usage:** Lists the top 5 processes consuming the most memory resources.
+* **System Temperature** Displays the current readings of your system's hardware sensors, such as CPU temperature, fan speeds, and voltages.
 
 ### Stretch Goals (Optional)
 
